@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0D16DF2955CFFB007095E0 /* GodiplanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D16DE2955CFFB007095E0 /* GodiplanCell.swift */; };
+		3A182A922958D5D900A07B1B /* GetDataTableCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A182A912958D5D900A07B1B /* GetDataTableCalendar.swift */; };
+		3A182A942958D67B00A07B1B /* DataTableCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A182A932958D67B00A07B1B /* DataTableCalendar.swift */; };
+		3A182A962958DD0700A07B1B /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A182A952958DD0700A07B1B /* CalendarCell.swift */; };
+		3A33AAA129201310002B818D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A33AAA029201310002B818D /* CalendarViewController.swift */; };
+		3A36102A290943F500A1A0D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A361029290943F500A1A0D7 /* AppDelegate.swift */; };
+		3A36102C290943F500A1A0D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36102B290943F500A1A0D7 /* SceneDelegate.swift */; };
+		3A36102E290943F500A1A0D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36102D290943F500A1A0D7 /* ViewController.swift */; };
+		3A361031290943F500A1A0D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A36102F290943F500A1A0D7 /* Main.storyboard */; };
+		3A361033290943F800A1A0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A361032290943F800A1A0D7 /* Assets.xcassets */; };
+		3A361036290943F800A1A0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A361034290943F800A1A0D7 /* LaunchScreen.storyboard */; };
+		3A4F16CB2918630400CD3121 /* NetworkErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F16CA2918630400CD3121 /* NetworkErrorViewController.swift */; };
+		3A7C3A84296C9678007571CA /* ExcelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C3A83296C9678007571CA /* ExcelTableViewController.swift */; };
+		3A8E3C422953BEEE00A62132 /* DataTableGodiplan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C412953BEEE00A62132 /* DataTableGodiplan.swift */; };
+		3A8E3C452953BF9600A62132 /* GetDataTableGodiplan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3C442953BF9600A62132 /* GetDataTableGodiplan.swift */; };
+		3AA951422919231B004D619B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA951412919231B004D619B /* Reachability.swift */; };
+		3AD59A6929740BC00075C6A1 /* ExcelDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD59A6829740BC00075C6A1 /* ExcelDetailsViewController.swift */; };
+		3AF5AD96292042A500D59300 /* ExcelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF5AD95292042A500D59300 /* ExcelViewController.swift */; };
+		3AF5F304296B5A980016E26F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF5F303296B5A980016E26F /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A0D16DE2955CFFB007095E0 /* GodiplanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodiplanCell.swift; sourceTree = "<group>"; };
+		3A182A912958D5D900A07B1B /* GetDataTableCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataTableCalendar.swift; sourceTree = "<group>"; };
+		3A182A932958D67B00A07B1B /* DataTableCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableCalendar.swift; sourceTree = "<group>"; };
+		3A182A952958DD0700A07B1B /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		3A33AAA029201310002B818D /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		3A361026290943F500A1A0D7 /* Knotenpunkt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knotenpunkt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A361029290943F500A1A0D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A36102B290943F500A1A0D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A36102D290943F500A1A0D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A361030290943F500A1A0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A361032290943F800A1A0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A361035290943F800A1A0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A361037290943F800A1A0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4F16CA2918630400CD3121 /* NetworkErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorViewController.swift; sourceTree = "<group>"; };
+		3A7C3A83296C9678007571CA /* ExcelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelTableViewController.swift; sourceTree = "<group>"; };
+		3A8E3C412953BEEE00A62132 /* DataTableGodiplan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableGodiplan.swift; sourceTree = "<group>"; };
+		3A8E3C442953BF9600A62132 /* GetDataTableGodiplan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataTableGodiplan.swift; sourceTree = "<group>"; };
+		3AA951412919231B004D619B /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3AD59A6829740BC00075C6A1 /* ExcelDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelDetailsViewController.swift; sourceTree = "<group>"; };
+		3AF5AD95292042A500D59300 /* ExcelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelViewController.swift; sourceTree = "<group>"; };
+		3AF5F303296B5A980016E26F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A361023290943F500A1A0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1539D8295691AA00D4782D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3A0D16DE2955CFFB007095E0 /* GodiplanCell.swift */,
+				3A182A952958DD0700A07B1B /* CalendarCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3A36101D290943F500A1A0D7 = {
+			isa = PBXGroup;
+			children = (
+				3A361028290943F500A1A0D7 /* Knotenpunkt */,
+				3A361027290943F500A1A0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A361027290943F500A1A0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A361026290943F500A1A0D7 /* Knotenpunkt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A361028290943F500A1A0D7 /* Knotenpunkt */ = {
+			isa = PBXGroup;
+			children = (
+				3A1539D8295691AA00D4782D /* Cell */,
+				3A8E3C432953BF5000A62132 /* ViewModel */,
+				3A8E3C402953BEA900A62132 /* Model */,
+				3AA951412919231B004D619B /* Reachability.swift */,
+				3A361029290943F500A1A0D7 /* AppDelegate.swift */,
+				3A36102B290943F500A1A0D7 /* SceneDelegate.swift */,
+				3A36102D290943F500A1A0D7 /* ViewController.swift */,
+				3AF5F303296B5A980016E26F /* LoginViewController.swift */,
+				3AF5AD95292042A500D59300 /* ExcelViewController.swift */,
+				3A33AAA029201310002B818D /* CalendarViewController.swift */,
+				3A4F16CA2918630400CD3121 /* NetworkErrorViewController.swift */,
+				3A7C3A83296C9678007571CA /* ExcelTableViewController.swift */,
+				3AD59A6829740BC00075C6A1 /* ExcelDetailsViewController.swift */,
+				3A36102F290943F500A1A0D7 /* Main.storyboard */,
+				3A361032290943F800A1A0D7 /* Assets.xcassets */,
+				3A361034290943F800A1A0D7 /* LaunchScreen.storyboard */,
+				3A361037290943F800A1A0D7 /* Info.plist */,
+			);
+			path = Knotenpunkt;
+			sourceTree = "<group>";
+		};
+		3A8E3C402953BEA900A62132 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E3C412953BEEE00A62132 /* DataTableGodiplan.swift */,
+				3A182A932958D67B00A07B1B /* DataTableCalendar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A8E3C432953BF5000A62132 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A8E3C442953BF9600A62132 /* GetDataTableGodiplan.swift */,
+				3A182A912958D5D900A07B1B /* GetDataTableCalendar.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A361025290943F500A1A0D7 /* Knotenpunkt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A36103A290943F800A1A0D7 /* Build configuration list for PBXNativeTarget "Knotenpunkt" */;
+			buildPhases = (
+				3A361022290943F500A1A0D7 /* Sources */,
+				3A361023290943F500A1A0D7 /* Frameworks */,
+				3A361024290943F500A1A0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knotenpunkt;
+			productName = Knotenpunkt;
+			productReference = 3A361026290943F500A1A0D7 /* Knotenpunkt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A36101E290943F500A1A0D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3A361025290943F500A1A0D7 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A361021290943F500A1A0D7 /* Build configuration list for PBXProject "Knotenpunkt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A36101D290943F500A1A0D7;
+			productRefGroup = 3A361027290943F500A1A0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A361025290943F500A1A0D7 /* Knotenpunkt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A361024290943F500A1A0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A361036290943F800A1A0D7 /* LaunchScreen.storyboard in Resources */,
+				3A361033290943F800A1A0D7 /* Assets.xcassets in Resources */,
+				3A361031290943F500A1A0D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A361022290943F500A1A0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A33AAA129201310002B818D /* CalendarViewController.swift in Sources */,
+				3AF5AD96292042A500D59300 /* ExcelViewController.swift in Sources */,
+				3A7C3A84296C9678007571CA /* ExcelTableViewController.swift in Sources */,
+				3A0D16DF2955CFFB007095E0 /* GodiplanCell.swift in Sources */,
+				3A36102E290943F500A1A0D7 /* ViewController.swift in Sources */,
+				3A182A922958D5D900A07B1B /* GetDataTableCalendar.swift in Sources */,
+				3AD59A6929740BC00075C6A1 /* ExcelDetailsViewController.swift in Sources */,
+				3A4F16CB2918630400CD3121 /* NetworkErrorViewController.swift in Sources */,
+				3A182A942958D67B00A07B1B /* DataTableCalendar.swift in Sources */,
+				3A8E3C422953BEEE00A62132 /* DataTableGodiplan.swift in Sources */,
+				3A36102A290943F500A1A0D7 /* AppDelegate.swift in Sources */,
+				3A182A962958DD0700A07B1B /* CalendarCell.swift in Sources */,
+				3A8E3C452953BF9600A62132 /* GetDataTableGodiplan.swift in Sources */,
+				3AA951422919231B004D619B /* Reachability.swift in Sources */,
+				3A36102C290943F500A1A0D7 /* SceneDelegate.swift in Sources */,
+				3AF5F304296B5A980016E26F /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A36102F290943F500A1A0D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A361030290943F500A1A0D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A361034290943F800A1A0D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A361035290943F800A1A0D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A361038290943F800A1A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A361039290943F800A1A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A36103B290943F800A1A0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Knotenpunkt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Knoti.Knotenpunkt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A36103C290943F800A1A0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Knotenpunkt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Knoti.Knotenpunkt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A361021290943F500A1A0D7 /* Build configuration list for PBXProject "Knotenpunkt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A361038290943F800A1A0D7 /* Debug */,
+				3A361039290943F800A1A0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A36103A290943F800A1A0D7 /* Build configuration list for PBXNativeTarget "Knotenpunkt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A36103B290943F800A1A0D7 /* Debug */,
+				3A36103C290943F800A1A0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A36101E290943F500A1A0D7 /* Project object */;
+}
