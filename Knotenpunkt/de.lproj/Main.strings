@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "00.00.0000"; ObjectID = "07M-05-YiS"; */
+"07M-05-YiS.text" = "00.00.0000";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "1fM-0I-Em5"; */
+"1fM-0I-Em5.text" = "00:00";
+
+/* Class = "UILabel"; text = "Adventgemeinde Bad Schwartau"; ObjectID = "2Ul-cW-9Td"; */
+"2Ul-cW-9Td.text" = "Adventgemeinde Bad Schwartau";
+
+/* Class = "UITabBarItem"; title = "GodiDetails"; ObjectID = "4sm-Qe-rFv"; */
+"4sm-Qe-rFv.title" = "GodiDetails";
+
+/* Class = "UILabel"; text = "Predigt"; ObjectID = "5rB-vm-1Nu"; */
+"5rB-vm-1Nu.text" = "Predigt";
+
+/* Class = "UILabel"; text = "Moderation"; ObjectID = "7Yc-XZ-OlN"; */
+"7Yc-XZ-OlN.text" = "Moderation";
+
+/* Class = "UILabel"; text = "Knotenpunkt"; ObjectID = "7Ze-sr-iEK"; */
+"7Ze-sr-iEK.text" = "Knotenpunkt";
+
+/* Class = "UILabel"; text = "00:00 - 00:00"; ObjectID = "7dx-fw-khn"; */
+"7dx-fw-khn.text" = "00:00 - 00:00";
+
+/* Class = "UITabBarItem"; title = "Kalender"; ObjectID = "AIg-5N-p7U"; */
+"AIg-5N-p7U.title" = "Kalender";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "FM0-6e-KQ6"; */
+"FM0-6e-KQ6.text" = "Name";
+
+/* Class = "UITabBarItem"; title = "Anmelden"; ObjectID = "Gg5-ty-INU"; */
+"Gg5-ty-INU.title" = "Anmelden";
+
+/* Class = "UITextField"; placeholder = "E-Mail-Adresse"; ObjectID = "H2g-Mi-nhd"; */
+"H2g-Mi-nhd.placeholder" = "E-Mail-Adresse";
+
+/* Class = "UILabel"; text = "Gottesdienstplan"; ObjectID = "IOf-zq-sUW"; */
+"IOf-zq-sUW.text" = "Gottesdienstplan";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "KHQ-0b-fZq"; */
+"KHQ-0b-fZq.text" = "Name";
+
+/* Class = "UILabel"; text = "Datum"; ObjectID = "M1x-QO-Uvp"; */
+"M1x-QO-Uvp.text" = "Datum";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "OFd-2u-t4h"; */
+"OFd-2u-t4h.text" = "Name";
+
+/* Class = "UILabel"; text = "Adventgemeinde Bad Schwartau"; ObjectID = "Opv-lg-MOo"; */
+"Opv-lg-MOo.text" = "Adventgemeinde Bad Schwartau";
+
+/* Class = "UITabBarItem"; title = "Mitteilung"; ObjectID = "OtW-pQ-Q9p"; */
+"OtW-pQ-Q9p.title" = "Mitteilung";
+
+/* Class = "UILabel"; text = "Kindermoment"; ObjectID = "P1Z-JU-PPZ"; */
+"P1Z-JU-PPZ.text" = "Kindermoment";
+
+/* Class = "UILabel"; text = "Gottesdienstkalender"; ObjectID = "TD7-cO-OhK"; */
+"TD7-cO-OhK.text" = "Gottesdienstkalender";
+
+/* Class = "UILabel"; text = "00.00.0000"; ObjectID = "TIN-nP-fLx"; */
+"TIN-nP-fLx.text" = "00.00.0000";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "UL7-v4-oHk"; */
+"UL7-v4-oHk.text" = "Name";
+
+/* Class = "UILabel"; text = "Adventgemeinde Bad Schwartau"; ObjectID = "YxJ-nk-xrr"; */
+"YxJ-nk-xrr.text" = "Adventgemeinde Bad Schwartau";
+
+/* Class = "UILabel"; text = "Knotenpunktsanmeldung"; ObjectID = "Z1Z-xw-nDB"; */
+"Z1Z-xw-nDB.text" = "Knotenpunktsanmeldung";
+
+/* Class = "UILabel"; text = "Gesprächsleitung"; ObjectID = "ZLj-ZZ-fLF"; */
+"ZLj-ZZ-fLF.text" = "Gesprächsleitung";
+
+/* Class = "UILabel"; text = "Gottesdienstplan"; ObjectID = "aOB-P2-BUJ"; */
+"aOB-P2-BUJ.text" = "Gottesdienstplan";
+
+/* Class = "UILabel"; text = "Zeit"; ObjectID = "bu4-td-m4n"; */
+"bu4-td-m4n.text" = "Zeit";
+
+/* Class = "UILabel"; text = "am Fr. 20:00"; ObjectID = "eRF-hR-7uo"; */
+"eRF-hR-7uo.text" = "am Fr. 20:00";
+
+/* Class = "UILabel"; text = "Putzdienst"; ObjectID = "f8b-ep-2al"; */
+"f8b-ep-2al.text" = "Putzdienst";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "iVg-qa-Qp1"; */
+"iVg-qa-Qp1.text" = "Name";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "lVb-8c-N6N"; */
+"lVb-8c-N6N.text" = "Name";
+
+/* Class = "UIButton"; configuration.title = "Anmelden"; ObjectID = "ocb-65-aq7"; */
+"ocb-65-aq7.configuration.title" = "Anmelden";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ocb-65-aq7"; */
+"ocb-65-aq7.normalTitle" = "Anmelden";
+
+/* Class = "UILabel"; text = "Adventgemeinde Bad Schwartau"; ObjectID = "pcT-U9-tlR"; */
+"pcT-U9-tlR.text" = "Adventgemeinde Bad Schwartau";
+
+/* Class = "UILabel"; text = "KidsGo"; ObjectID = "pji-nh-njz"; */
+"pji-nh-njz.text" = "KidsGo";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "rtS-BG-FVA"; */
+"rtS-BG-FVA.text" = "Name";
+
+/* Class = "UILabel"; text = "______________________________________"; ObjectID = "smc-ah-t6t"; */
+"smc-ah-t6t.text" = "______________________________________";
+
+/* Class = "UILabel"; text = "Ort"; ObjectID = "tA3-xo-92d"; */
+"tA3-xo-92d.text" = "Ort";
+
+/* Class = "UILabel"; text = "Musik"; ObjectID = "uwv-tg-Y2l"; */
+"uwv-tg-Y2l.text" = "Musik";
+
+/* Class = "UITextField"; placeholder = "Passwort"; ObjectID = "vgX-D5-llt"; */
+"vgX-D5-llt.placeholder" = "Passwort";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "vri-MO-oau"; */
+"vri-MO-oau.text" = "Name";
+
+/* Class = "UILabel"; text = "Sabbat Shalom"; ObjectID = "xmL-A3-wSE"; */
+"xmL-A3-wSE.text" = "Sabbat Shalom";
+
+/* Class = "UITabBarItem"; title = "Godiplan"; ObjectID = "yn1-aW-Bdc"; */
+"yn1-aW-Bdc.title" = "Godiplan";
