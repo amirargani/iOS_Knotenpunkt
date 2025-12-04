@@ -1,0 +1,23 @@
+# Standard: Textdateien mit LF
+* text=auto eol=lf
+
+# Objective-C / Swift Quellcode
+*.h text diff
+*.m text diff
+*.mm text diff
+*.swift text diff
+
+# Xcode Projektdateien
+*.pbxproj text merge=union
+
+# Interface Builder Dateien
+*.storyboard text merge=union
+*.xib text merge=union
+
+# JSON / XML
+*.json text
+*.xml text
+
+# Markdown / Docs
+*.md text
+*.txt text
