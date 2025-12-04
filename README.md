@@ -24,3 +24,8 @@ Share important updates and send push notifications to the community.
 | Frontend Development   | Swift (iOS), Java (Android)       |
 | Scripting & Automation | JavaScript, Google Apps Script    |
 | Database               | Google Sheets (as lightweight DB) |
+
+# Add .gitignore and .gitattributes
+
+- .gitignore excludes build artifacts, macOS metadata, Pods, etc.
+- .gitattributes ensures LF endings and merge strategies for Xcode files

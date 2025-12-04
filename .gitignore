@@ -1,0 +1,44 @@
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Swift Package Manager
+/.build/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Signing
+*.cer
+*.mobileprovision
+*.p12
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Other
+*.swp
+*.lock
+
+# macOS resource fork files
+._*
