@@ -1,9 +1,9 @@
 # 🙏 Knotenpunkt - Worship Service Management App
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
-![Language](https://img.shields.io/badge/Language-Swift-orange.svg)
-![Min SDK](https://img.shields.io/badge/Min%20SDK-15.0-blue.svg)
+[![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)]()
+[![Language](https://img.shields.io/badge/Language-Swift-orange.svg)]()
+[![Min SDK](https://img.shields.io/badge/Min%20SDK-15.0-blue.svg)]()
 
 A professional iOS application designed to streamline church administration and enhance community engagement. **Knotenpunkt** serves as the central platform for organizing worship services, managing events, and keeping the community connected.
 
