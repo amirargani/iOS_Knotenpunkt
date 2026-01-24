@@ -8,6 +8,11 @@
 A professional iOS application designed to streamline church administration and enhance community engagement. **Knotenpunkt** serves as the central platform for organizing worship services, managing events, and keeping the community connected.
 
 ---
+### iOS App – Video Demo
+
+[![Video ansehen](ios_preview.png)](https://drive.google.com/file/d/1WsFMZu264yGGrlsfkju91N1-a-SWjahD/view?usp=drive_link)
+
+---
 
 ## ✨ Features
 
